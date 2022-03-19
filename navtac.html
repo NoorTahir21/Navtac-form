@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet' />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Admission Form</title>
+	<style>
+		body  {
+			line-height: 1.5rem;
+			text-align: center;
+		}
+		input {
+			margin-top: 10px;
+			display: inline-block;
+
+		}
+	
+		.card {
+			background-color:#fff;
+   			padding: 20px;
+   			margin-top: 20px;
+   			margin-left: 30%;
+   			margin-right: 30%;
+   			color: #000;
+
+		}
+		body,html {
+			font-family: 'Poppins', sans-serif;
+			background-image: url("navbg.jpg");
+			background-position: center;
+			background-repeat: no-repeat;
+			width: 100%;
+			background-size: 100% 100%;
+			position: relative; 
+		}
+		.btn {
+			background-color: #800080;
+			border:1px solid #fff;
+			margin: 0 5px;
+			color: #fff;
+			 padding: 15px 40px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+		}
+		.btn:hover {
+			color: #800080;
+			background-color:#fff;
+			text-decoration: none;
+			border: 1px solid #800080;
+		}
+		.input-icons i{
+			position: absolute;
+		}
+		.input-icons {
+			width: 100%;
+			margin-bottom: 10px;
+		}
+		.icon {
+			padding: 10px;
+			color: purple;
+			min-width: 50px;
+			text-align: center;
+		}
+		.input-field {
+			width: 100%;
+			padding: 10px;
+			text-align: center;
+		}
+		.fa {
+			margin-top: 5px;
+			font-size: 1.5rem;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="card">
+	<h1 style="color:#800080; text-align: center;">NAVTAC ADMISSION FORM</h1>
+	<form style="max-width:450px;margin:auto">
+		<div class="input-icons">
+		<i class="fa fa-user icon"></i>
+		<input class="input-field" type="text" name="sname" placeholder="Student name">
+	</div>
+	<div class="input-icons">
+		<i class="fa fa-male icon" style="font-size: 1.8rem;"></i>
+		<input class="input-field" type="text" name="fname" placeholder="father name" >
+	</div>
+	<div class="input-icons">
+		<i class="fa fa-envelope icon"></i>
+		<input class="input-field" type="text" name="email" placeholder="Your Email">
+	</div>
+	<div class="input-icons">
+		<i class="fa fa-phone icon"></i>
+		<input class="input-field" type="number" name="phone" placeholder="Your phone number">
+	</div>
+	<div class="input-icons">
+		<i class="fa fa-mobile icon" style="font-size: 1.8rem;"></i>
+		<input class="input-field" type="number" name="fphone" placeholder="Father's phone number">
+	</div>
+	<div class="input-icons">
+		<i class="	fa fa-envelope-open icon"></i>
+		<input class="input-field" type="text" name="email" placeholder="Father email">
+	</div>
+	<div class="input-icons">
+		<i class="fa fa-male icon" style="font-size: 1.8rem;"></i>
+		<input class="input-field" type="text" name="foccupation" placeholder="father's occupation">
+	</div>
+	<div class="input-icons">
+		<i class="fa fa-id-card icon"></i>
+		<input class="input-field" type="text" name="religion" placeholder="Religion">
+	</div>
+	<div class="input-icons">
+		<i class="fa fa-home icon"></i>
+		<input class="input-field" type="text" name="address" placeholder="Enter Home Adrress">
+	</div>
+		<p style="color: #800080;"><b>Date of Birth</b></p>
+		<input type="Date">
+		<br>
+		<p style="color:#800080 ;"><b>Please select your gender</b></p>
+	<input type="radio" name="gender" value="male">Male
+	<input type="radio" name="gender" value="female">Female
+	<input type="radio" name="gender" value="other">Other
+	<br>
+	<br>
+	<button type="submit" class="btn">SUBMIT</button>
+	</form>
+</div>
+</body>
+</html>
